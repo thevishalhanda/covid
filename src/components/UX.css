@@ -1,0 +1,126 @@
+
+.app {
+    
+    background-image: url('./imggg/cold-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 300px;
+    transition: 0.4 ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:300px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 460px;
+    border-radius:  20px ;
+    margin-top: 50px;
+
+}
+
+.app.warm{
+
+    width:300px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 460px;
+    border-radius:  20px ;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+    background-image: url('./imggg//warm-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+
+}
+
+.main p{
+    font-size: 36px;
+    margin-right: 110px;
+    color:indigo;
+    margin-top: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main input {
+      
+    width: 240px;
+    font-size: 20px;
+    border:2px solid gainsboro;
+    text-align: center;
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    outline: none;
+} 
+
+
+.weather-content{
+
+   margin-left: 25px;
+    margin-top: 20px;
+    width: 247px;
+    height: 240px;
+    border:2px solid brown;
+    border-radius: 10px;
+    background-color: lightpink;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+
+
+}
+
+.weather-content .City{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:indigo;
+    
+
+
+}
+
+.weather-content .days{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -10px;
+    color:orange;
+
+}
+
+.weather-content .date{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -14px;
+    color:orangered;
+
+} 
+.weather-content .weather-gen{
+    font-size: 18px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -10px;
+    color:seagreen;
+   
+}
+
+.weather-content .temp-c{
+    font-size: 18px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -10px;
+    color:sienna;
+}
+
+
+.weather-content .temp-k{
+    font-size: 18px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -10px;
+    color:hotpink;
+}
